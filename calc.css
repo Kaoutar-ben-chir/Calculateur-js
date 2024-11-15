@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Couleur Neutre (Gris Clair) */
+    color: #555555; /* Couleur Accentuée (Gris Foncé) */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 90px;
+    margin-top: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: oblique; 
+    font-weight: bold; 
+    color: #5bc0de; /* Couleur Principale (Bleu Clair) */
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    height: 450px; 
+    background-color: #ffffff; /* Couleur Complémentaire (Blanc) */
+    margin: 100px auto 20px; 
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Ombre légère */
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    margin-right: 20px;
+}
+
+.input-container input {
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 300px; 
+}
+
+button {
+    padding: 20px 80px;
+    background-color: #a3e47b; /* Vert clair */
+    color: #ffffff; /* Couleur Complémentaire (Blanc) */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+    margin-left: auto; 
+}
+
+#resultatTaux, #resultatConversion {
+    margin-top: 20px;
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+#devise1{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px; 
+}
+#devise2{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px; 
+}
+#montant{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px; 
+}
+#devise3{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px; 
+}
+#devise4{
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px; 
+}
+#resultatTaux {
+    color: #2E8B57; /* Exemple : vert */
+}
+
+#resultatConversion {
+    color: #4682B4; /* Exemple : bleu */
+}
